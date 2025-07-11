@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355453052992",
+    "project_id": "kurbanku-terencana",
+    "storage_bucket": "kurbanku-terencana.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355453052992:android:90bc616f084aee600657a5",
+        "android_client_info": {
+          "package_name": "com.example.kurbanku_terencana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG35IahTBZCtiEiXAw3lO2BfOJ2-qhMjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kurbanku_terencana.app-debug-50:/mipmap-hdpi_logo_kurbanku_terencana.png.flat",
+        "source": "com.example.kurbanku_terencana.app-main-44:/mipmap-hdpi/logo_kurbanku_terencana.png"
+    },
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-debug-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/fahrel/.gradle/daemon/8.10.2/com.example.kurbanku_terencana.app-main-44:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
