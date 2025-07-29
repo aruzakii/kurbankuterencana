@@ -5,7 +5,7 @@
     type="LIBRARY"
     maven="io.flutter.plugins.sharedpreferences:shared_preferences_android:1.0-SNAPSHOT"
     agpVersion="8.7.0"
-    buildFolder="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android"
+    buildFolder="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android"
     bootClassPath="/Users/fahrel/Library/Android/sdk/platforms/android-35/android.jar:/Users/fahrel/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
     javaSourceLevel="11"
     compileTarget="android-35"

@@ -5185,23 +5185,6 @@
                     }
                 },
                 {
-                    "source": "/Users/fahrel/Proyek/kurbanku_terencana/build/app/generated/res/google-services/release/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,580",
-                        "endColumns": "81,103,108,119,109,78",
-                        "endOffsets": "132,236,345,465,575,654"
-                    },
-                    "to": {
-                        "startLines": "429,430,431,432,433,438",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "27354,27436,27540,27649,27769,28063",
-                        "endColumns": "81,103,108,119,109,78",
-                        "endOffsets": "27431,27535,27644,27764,27874,28137"
-                    }
-                },
-                {
                     "source": "/Users/fahrel/.gradle/caches/8.10.2/transforms/06667bb320da673485864ef867e80a7d/transformed/jetified-activity-1.8.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -5257,6 +5240,25 @@
                     }
                 },
                 {
+                    "source": "/Users/fahrel/Proyek/kurbankuterencana/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1533,1537",
+                        "startColumns": "4,4",
+                        "startOffsets": "98099,98280",
+                        "endLines": "1536,1539",
+                        "endColumns": "12,12",
+                        "endOffsets": "98275,98444"
+                    }
+                },
+                {
                     "source": "/Users/fahrel/.gradle/caches/8.10.2/transforms/a9c9109d84222ef39ccd74e88c2f7c1d/transformed/jetified-window-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,9,17,25,37,43,49,50,51,52,53,54,55,61,66,74,89",
@@ -5273,25 +5275,6 @@
                         "endLines": "2,10,18,26,41,47,53,54,55,56,57,58,314,2241,2246,3567,3582,3598",
                         "endColumns": "58,11,11,11,11,11,11,52,59,51,44,38,59,24,24,24,24,24",
                         "endOffsets": "159,448,667,886,1354,1542,1729,1782,1842,1894,1939,1978,19212,143855,144013,189292,189906,190560"
-                    }
-                },
-                {
-                    "source": "/Users/fahrel/Proyek/kurbanku_terencana/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1533,1537",
-                        "startColumns": "4,4",
-                        "startOffsets": "98099,98280",
-                        "endLines": "1536,1539",
-                        "endColumns": "12,12",
-                        "endOffsets": "98275,98444"
                     }
                 },
                 {
@@ -5523,6 +5506,23 @@
                         "startOffsets": "21396",
                         "endColumns": "49",
                         "endOffsets": "21441"
+                    }
+                },
+                {
+                    "source": "/Users/fahrel/Proyek/kurbankuterencana/build/app/generated/res/google-services/release/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,580",
+                        "endColumns": "81,103,108,119,109,78",
+                        "endOffsets": "132,236,345,465,575,654"
+                    },
+                    "to": {
+                        "startLines": "429,430,431,432,433,438",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "27354,27436,27540,27649,27769,28063",
+                        "endColumns": "81,103,108,119,109,78",
+                        "endOffsets": "27431,27535,27644,27764,27874,28137"
                     }
                 }
             ]
@@ -6811,7 +6811,7 @@
             "outputFile": "com.example.kurbanku_terencana.app-release-51:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/fahrel/Proyek/kurbanku_terencana/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/fahrel/Proyek/kurbankuterencana/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -3,9 +3,9 @@
     package="io.flutter.plugins.sharedpreferences"
     minSdkVersion="21"
     targetSdkVersion="21"
-    mergedManifest="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
-    proguardFiles="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/default_proguard_files/global/proguard-android.txt-8.7.0"
-    partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+    mergedManifest="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    proguardFiles="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/default_proguard_files/global/proguard-android.txt-8.7.0"
+    partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
     desugaredMethodsFiles="/Users/fahrel/.gradle/caches/8.10.2/transforms/43efc08548039a3e1602a330a74cfb74/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
@@ -21,11 +21,11 @@
   <testFixturesSourceProviders>
   </testFixturesSourceProviders>
   <artifact
-      classOutputs="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/tmp/kotlin-classes/release:/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      classOutputs="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/tmp/kotlin-classes/release:/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
       type="MAIN"
       applicationId="io.flutter.plugins.sharedpreferences"
-      generatedSourceFolders="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/generated/res/resValues/release"
+      generatedSourceFolders="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/generated/res/resValues/release"
       desugaredMethodsFiles="/Users/fahrel/.gradle/caches/8.10.2/transforms/43efc08548039a3e1602a330a74cfb74/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

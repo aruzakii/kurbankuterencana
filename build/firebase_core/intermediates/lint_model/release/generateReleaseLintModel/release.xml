@@ -3,10 +3,10 @@
     package="io.flutter.plugins.firebase.core"
     minSdkVersion="21"
     targetSdkVersion="34"
-    mergedManifest="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
-    manifestMergeReport="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/default_proguard_files/global/proguard-android.txt-8.7.0"
-    partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/lint_partial_results/release/lintAnalyzeRelease/out">
+    mergedManifest="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/default_proguard_files/global/proguard-android.txt-8.7.0"
+    partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/lint_partial_results/release/lintAnalyzeRelease/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -21,11 +21,11 @@
   <testFixturesSourceProviders>
   </testFixturesSourceProviders>
   <artifact
-      classOutputs="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      classOutputs="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
       type="MAIN"
       applicationId="io.flutter.plugins.firebase.core"
-      generatedSourceFolders="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/generated/ap_generated_sources/release/out:/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/generated/source/buildConfig/release"
-      generatedResourceFolders="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/generated/res/resValues/release"
+      generatedSourceFolders="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/generated/ap_generated_sources/release/out:/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/generated/source/buildConfig/release"
+      generatedResourceFolders="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/generated/res/resValues/release"
       desugaredMethodsFiles="/Users/fahrel/.gradle/caches/8.10.2/transforms/43efc08548039a3e1602a330a74cfb74/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

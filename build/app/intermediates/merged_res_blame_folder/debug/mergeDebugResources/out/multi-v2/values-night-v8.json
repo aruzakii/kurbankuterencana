@@ -4,7 +4,7 @@
             "outputFile": "com.example.kurbanku_terencana.app-mergeDebugResources-48:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/fahrel/Proyek/kurbanku_terencana/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/fahrel/Proyek/kurbankuterencana/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

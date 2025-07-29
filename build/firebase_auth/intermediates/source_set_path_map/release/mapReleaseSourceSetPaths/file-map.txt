@@ -28,9 +28,9 @@ io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.
 io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.4.0-27 /Users/fahrel/.gradle/caches/8.10.2/transforms/e71aa275b9d4ba7027a65c58a1a47617/transformed/jetified-play-services-basement-18.4.0/res
 io.flutter.plugins.firebase.auth.firebase_auth-main-28 /Users/fahrel/.pub-cache/hosted/pub.dev/firebase_auth-5.6.2/android/src/main/res
 io.flutter.plugins.firebase.auth.firebase_auth-release-29 /Users/fahrel/.pub-cache/hosted/pub.dev/firebase_auth-5.6.2/android/src/release/res
-io.flutter.plugins.firebase.auth.firebase_auth-pngs-30 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/generated/res/pngs/release
-io.flutter.plugins.firebase.auth.firebase_auth-resValues-31 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/generated/res/resValues/release
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-32 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-33 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.auth.firebase_auth-release-34 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/intermediates/merged_res/release/mergeReleaseResources
-io.flutter.plugins.firebase.auth.firebase_auth-release-35 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-30 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-31 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-32 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-33 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-release-34 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.firebase.auth.firebase_auth-release-35 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources

@@ -20,8 +20,8 @@ io.flutter.plugins.pathprovider.path_provider_android-jetified-window-1.2.0-18 /
 io.flutter.plugins.pathprovider.path_provider_android-jetified-annotation-experimental-1.4.0-19 /Users/fahrel/.gradle/caches/8.10.2/transforms/b204dbe68736c2b5f075d04ddf3d98ba/transformed/jetified-annotation-experimental-1.4.0/res
 io.flutter.plugins.pathprovider.path_provider_android-main-20 /Users/fahrel/.pub-cache/hosted/pub.dev/path_provider_android-2.2.17/android/src/main/res
 io.flutter.plugins.pathprovider.path_provider_android-release-21 /Users/fahrel/.pub-cache/hosted/pub.dev/path_provider_android-2.2.17/android/src/release/res
-io.flutter.plugins.pathprovider.path_provider_android-pngs-22 /Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/generated/res/pngs/release
-io.flutter.plugins.pathprovider.path_provider_android-resValues-23 /Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/generated/res/resValues/release
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-24 /Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-25 /Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.pathprovider.path_provider_android-release-26 /Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.pathprovider.path_provider_android-pngs-22 /Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/generated/res/pngs/release
+io.flutter.plugins.pathprovider.path_provider_android-resValues-23 /Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/generated/res/resValues/release
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-24 /Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-25 /Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.pathprovider.path_provider_android-release-26 /Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/intermediates/merged_res/release/mergeReleaseResources

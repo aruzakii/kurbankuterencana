@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.credentials.playservices.CredentialProviderMetadataHolder { <init>(); }
@@ -65,8 +65,8 @@
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from /Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
+# End of content from /Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -157,7 +157,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
+# End of content from /Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
 # The proguard configuration file for the following section is /Users/fahrel/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**

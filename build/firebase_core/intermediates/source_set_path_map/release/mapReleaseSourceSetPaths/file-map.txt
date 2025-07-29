@@ -22,8 +22,8 @@ io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-21.0.0-2
 io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.4.0-21 /Users/fahrel/.gradle/caches/8.10.2/transforms/b204dbe68736c2b5f075d04ddf3d98ba/transformed/jetified-annotation-experimental-1.4.0/res
 io.flutter.plugins.firebase.core.firebase_core-main-22 /Users/fahrel/.pub-cache/hosted/pub.dev/firebase_core-3.15.1/android/src/main/res
 io.flutter.plugins.firebase.core.firebase_core-release-23 /Users/fahrel/.pub-cache/hosted/pub.dev/firebase_core-3.15.1/android/src/release/res
-io.flutter.plugins.firebase.core.firebase_core-pngs-24 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/generated/res/pngs/release
-io.flutter.plugins.firebase.core.firebase_core-resValues-25 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/generated/res/resValues/release
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-26 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-27 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.core.firebase_core-release-28 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.firebase.core.firebase_core-pngs-24 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-25 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-26 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-27 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-release-28 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/merged_res/release/mergeReleaseResources

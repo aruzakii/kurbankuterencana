@@ -5,7 +5,7 @@
     type="LIBRARY"
     maven="io.flutter.plugins.firebase.cloudfirestore:cloud_firestore:1.0-SNAPSHOT"
     agpVersion="8.7.0"
-    buildFolder="/Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore"
+    buildFolder="/Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore"
     bootClassPath="/Users/fahrel/Library/Android/sdk/platforms/android-34/android.jar:/Users/fahrel/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
     javaSourceLevel="17"
     compileTarget="android-34"

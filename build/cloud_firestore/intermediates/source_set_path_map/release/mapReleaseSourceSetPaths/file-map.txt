@@ -23,9 +23,9 @@ io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experi
 io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.1.0-22 /Users/fahrel/.gradle/caches/8.10.2/transforms/dda84d1cc2f12b5b22ec2f1915cb4ad8/transformed/jetified-play-services-base-18.1.0/res
 io.flutter.plugins.firebase.firestore.cloud_firestore-main-23 /Users/fahrel/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.11/android/src/main/res
 io.flutter.plugins.firebase.firestore.cloud_firestore-release-24 /Users/fahrel/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.11/android/src/release/res
-io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-25 /Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/generated/res/pngs/release
-io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-26 /Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/generated/res/resValues/release
-io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-27 /Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-28 /Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.firestore.cloud_firestore-release-29 /Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/intermediates/merged_res/release/mergeReleaseResources
-io.flutter.plugins.firebase.firestore.cloud_firestore-release-30 /Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-25 /Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/generated/res/pngs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-26 /Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/generated/res/resValues/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-27 /Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-28 /Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-29 /Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/intermediates/merged_res/release/mergeReleaseResources
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-30 /Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/packaged_res/release/packageReleaseResources

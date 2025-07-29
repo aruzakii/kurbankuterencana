@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
       name=":@@:shared_preferences_android::release"
       jars="/Users/fahrel/.gradle/caches/8.10.2/transforms/92cdf049155a7a1eff72173d0f38bddb/transformed/out/jars/classes.jar:/Users/fahrel/.gradle/caches/8.10.2/transforms/92cdf049155a7a1eff72173d0f38bddb/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:1.0-SNAPSHOT"
-      partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/shared_preferences_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/shared_preferences_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/fahrel/.gradle/caches/8.10.2/transforms/92cdf049155a7a1eff72173d0f38bddb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
@@ -25,7 +25,7 @@
       name=":@@:cloud_firestore::release"
       jars="/Users/fahrel/.gradle/caches/8.10.2/transforms/6e3c08360a628e771fd8bd3460f8234d/transformed/out/jars/classes.jar:/Users/fahrel/.gradle/caches/8.10.2/transforms/6e3c08360a628e771fd8bd3460f8234d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.firebase.cloudfirestore:cloud_firestore:1.0-SNAPSHOT"
-      partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/cloud_firestore/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/cloud_firestore/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/fahrel/.gradle/caches/8.10.2/transforms/6e3c08360a628e771fd8bd3460f8234d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
@@ -39,7 +39,7 @@
       name=":@@:firebase_auth::release"
       jars="/Users/fahrel/.gradle/caches/8.10.2/transforms/ac14c70d3aab288c86e46d6ce9f959a7/transformed/out/jars/classes.jar:/Users/fahrel/.gradle/caches/8.10.2/transforms/ac14c70d3aab288c86e46d6ce9f959a7/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:1.0-SNAPSHOT"
-      partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_auth/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_auth/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/fahrel/.gradle/caches/8.10.2/transforms/ac14c70d3aab288c86e46d6ce9f959a7/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
@@ -53,7 +53,7 @@
       name=":@@:firebase_core::release"
       jars="/Users/fahrel/.gradle/caches/8.10.2/transforms/0e109190ad6f1c1445ab6db9352c168f/transformed/out/jars/classes.jar:/Users/fahrel/.gradle/caches/8.10.2/transforms/0e109190ad6f1c1445ab6db9352c168f/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:1.0-SNAPSHOT"
-      partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/firebase_core/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/firebase_core/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/fahrel/.gradle/caches/8.10.2/transforms/0e109190ad6f1c1445ab6db9352c168f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
@@ -67,7 +67,7 @@
       name=":@@:path_provider_android::release"
       jars="/Users/fahrel/.gradle/caches/8.10.2/transforms/4cb572bc9a3c747662829eadc85f6c18/transformed/out/jars/classes.jar:/Users/fahrel/.gradle/caches/8.10.2/transforms/4cb572bc9a3c747662829eadc85f6c18/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:1.0-SNAPSHOT"
-      partialResultsDir="/Users/fahrel/Proyek/kurbanku_terencana/build/path_provider_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+      partialResultsDir="/Users/fahrel/Proyek/kurbankuterencana/build/path_provider_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
       folder="/Users/fahrel/.gradle/caches/8.10.2/transforms/4cb572bc9a3c747662829eadc85f6c18/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"

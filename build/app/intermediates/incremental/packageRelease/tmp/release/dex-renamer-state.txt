@@ -1,4 +1,4 @@
-#Fri Jul 11 21:24:45 WIB 2025
-base.0=/Users/fahrel/Proyek/kurbanku_terencana/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sat Jul 12 17:05:05 WIB 2025
+base.0=/Users/fahrel/Proyek/kurbankuterencana/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
