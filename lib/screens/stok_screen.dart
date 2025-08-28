@@ -1001,18 +1001,10 @@ class _StokScreenState extends State<StokScreen> with SingleTickerProviderStateM
   }
 
   String _formatCurrency(double amount) {
-    if (amount >= 1000000000000) {
-      return 'Rp ${(amount / 1000000000000).toStringAsFixed(1)}T'; // Triliun
-    } else if (amount >= 1000000000) {
-      return 'Rp ${(amount / 1000000000).toStringAsFixed(1)}M'; // Miliar
-    } else if (amount >= 1000000) {
-      return 'Rp ${(amount / 1000000).toStringAsFixed(1)}Jt'; // Juta
-    } else {
-      return 'Rp ${amount.toStringAsFixed(0).replaceAllMapped(
-        RegExp(r'(\d{1,3})(?=(\d{3})+(?!\d))'),
-            (Match m) => '${m[1]}.',
-      )}';
-    }
+    return 'Rp ${amount.toStringAsFixed(0).replaceAllMapped(
+      RegExp(r'(\d{1,3})(?=(\d{3})+(?!\d))'),
+          (Match m) => '${m[1]}.',
+    )}';
   }
 
   String _formatDate(DateTime date) {

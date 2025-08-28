@@ -30,6 +30,27 @@ class PrediksiProvider with ChangeNotifier {
       final penjualanList = penjualanProvider.penjualanList;
       final hewanKurbanList = penjualanProvider.hewanKurbanList;
 
+      // =========================
+      // 🔍 DEBUG: CEK DATA MENTAH
+      // =========================
+      print('=== DEBUG FULL DATA ===');
+      print('Periode: $selectedPeriode');
+      print('Jenis: $selectedJenisHewan');
+      print('Total penjualan records: ${penjualanList.length}');
+      print('Total hewan records: ${hewanKurbanList.length}');
+
+      print('\n=== RAW PENJUALAN DATA ===');
+      for (final p in penjualanList) {
+        final hewan = hewanKurbanList.firstWhere(
+                (h) => h.id == p.hewanKurbanId,
+            orElse: () => HewanKurban(
+              id: '', jenis: 'Unknown', berat: 0.0, harga: 0.0,
+              status: 'unknown', tanggalMasuk: DateTime.now(), userId: '', stok: 0,
+            )
+        );
+        print('Tanggal: ${p.tanggalPenjualan} | Jenis: ${hewan.jenis} | Jumlah: ${p.jumlah}');
+      }
+
       if (penjualanList.isEmpty || hewanKurbanList.isEmpty) {
         _estimasiData = {
           'estimasi': {},
@@ -74,11 +95,17 @@ class PrediksiProvider with ChangeNotifier {
         }
       }
 
+      print('\n=== PENJUALAN PER JENIS PER BULAN ===');
+      print(penjualanPerJenisPerBulan);
+
       _prediksiList = [];
 
       for (final entry in penjualanPerJenisPerBulan.entries) {
         final jenis = entry.key;
         final dataBulanan = entry.value;
+
+        print('\n=== PROCESSING $jenis ===');
+        print('Data bulanan: $dataBulanan');
 
         if (dataBulanan.length >= 3) {
           final Map<int, int> dataTahunan = {};
@@ -87,11 +114,22 @@ class PrediksiProvider with ChangeNotifier {
             dataTahunan[tahun] = (dataTahunan[tahun] ?? 0) + bulanEntry.value;
           }
 
+          print('Data tahunan: $dataTahunan');
+
           if (dataTahunan.length >= 2) {
-            final dataHistoris = dataTahunan.values.map((e) => e.toDouble()).toList();
+            // ✅ FIX: Urutkan tahun secara kronologis
+            final sortedYears = dataTahunan.keys.toList()..sort();
+            final dataHistoris = sortedYears.map((year) => dataTahunan[year]!.toDouble()).toList();
+
+            print('Sorted years: $sortedYears');
+            print('Data historis (kronologis): $dataHistoris');
+
             final rata2 = dataHistoris.reduce((a, b) => a + b) / dataHistoris.length;
 
             final prediksi = _calculateARIMAPrediction(dataHistoris);
+
+            print('Rata-rata: $rata2');
+            print('Prediksi ARIMA: $prediksi');
 
             _prediksiList.add(PrediksiPermintaan(
               jenis: jenis,
@@ -131,8 +169,12 @@ class PrediksiProvider with ChangeNotifier {
       ) {
     final Map<String, List<Map<String, dynamic>>> dataAnalisis = {};
     final now = DateTime.now();
-    final nextMonth = DateTime(now.year, now.month + 1);
-    final sixMonthsAgo = now.subtract(const Duration(days: 180));
+    final threeYearsAgo = DateTime(now.year - 3, now.month, now.day);
+
+    print('\n=== ESTIMASI CALCULATION ===');
+    print('Current date: $now');
+    print('Three years ago: $threeYearsAgo');
+    print('Selected periode: $selectedPeriode');
 
     for (final penjualan in penjualanList) {
       final hewan = hewanKurbanList.firstWhere(
@@ -168,11 +210,18 @@ class PrediksiProvider with ChangeNotifier {
           case '6_bulan':
             final quarter = ((penjualan.tanggalPenjualan.month - 1) ~/ 6) + 1;
             periodKey = '${penjualan.tanggalPenjualan.year}-H$quarter';
-            includeData = penjualan.tanggalPenjualan.isAfter(sixMonthsAgo);
+            includeData = penjualan.tanggalPenjualan.isAfter(
+              now.subtract(const Duration(days: 180)),
+            );
             break;
           case 'tahun_depan':
+            periodKey = '${penjualan.tanggalPenjualan.year}';
+            includeData = penjualan.tanggalPenjualan.isAfter(threeYearsAgo);
+            print('Checking ${penjualan.tanggalPenjualan} > $threeYearsAgo = $includeData');
+            break;
           default:
             periodKey = '${penjualan.tanggalPenjualan.year}';
+            includeData = penjualan.tanggalPenjualan.isAfter(threeYearsAgo);
             break;
         }
 
@@ -183,17 +232,22 @@ class PrediksiProvider with ChangeNotifier {
             'jumlah': penjualan.jumlah,
             'harga': penjualan.hargaJual * penjualan.jumlah,
           });
+          print('Added to analysis: ${hewan.jenis} - $periodKey - ${penjualan.jumlah}');
+        } else {
+          print('Filtered out: ${hewan.jenis} - ${penjualan.tanggalPenjualan}');
         }
       }
     }
 
-    print('Data analisis untuk $selectedPeriode: $dataAnalisis');
+    print('\nData analisis hasil filter: $dataAnalisis');
 
     final Map<String, Map<String, dynamic>> estimasi = {};
 
     for (final entry in dataAnalisis.entries) {
       final jenis = entry.key;
       final data = entry.value;
+
+      print('\n=== PROCESSING ESTIMASI $jenis ===');
 
       final Map<String, Map<String, dynamic>> periodData = {};
       for (final item in data) {
@@ -203,12 +257,25 @@ class PrediksiProvider with ChangeNotifier {
         periodData[periodeKey]!['pendapatan'] += item['harga'] as double;
       }
 
+      print('Period data: $periodData');
+
       if (periodData.isNotEmpty) {
-        final jumlahList = periodData.values.map((e) => (e['jumlah'] as int).toDouble()).toList();
-        final pendapatanList = periodData.values.map((e) => e['pendapatan'] as double).toList();
+        // ✅ FIX: Urutkan periode secara kronologis
+        final sortedPeriods = periodData.keys.toList()..sort();
+        print('Sorted periods: $sortedPeriods');
+
+        final jumlahList = sortedPeriods.map((periode) =>
+            (periodData[periode]!['jumlah'] as int).toDouble()).toList();
+        final pendapatanList = sortedPeriods.map((periode) =>
+        periodData[periode]!['pendapatan'] as double).toList();
+
+        print('Jumlah list (kronologis): $jumlahList');
+        print('Pendapatan list: $pendapatanList');
 
         final int window = selectedPeriode == 'bulan_depan' ? 2 : 3;
         final actualWindow = window > jumlahList.length ? jumlahList.length : window;
+
+        print('Window size: $window, Actual window: $actualWindow');
 
         final estimasiJumlah = _calculateWeightedMovingAverage(jumlahList, actualWindow);
         final estimasiPendapatan = _calculateWeightedMovingAverage(pendapatanList, actualWindow);
@@ -216,19 +283,24 @@ class PrediksiProvider with ChangeNotifier {
         final tren = _calculateTrend(jumlahList);
         final confidence = _calculateConfidence(jumlahList);
 
+        print('WMA result: $estimasiJumlah');
+        print('Trend: $tren');
+        print('Confidence: $confidence');
+
         estimasi[jenis] = {
           'estimasiJumlah': estimasiJumlah.round(),
           'estimasiPendapatan': estimasiPendapatan,
           'tren': tren,
           'confidence': confidence,
           'dataHistoris': jumlahList,
-          'periodeTerakhir': periodData.keys.last,
+          'periodeTerakhir': sortedPeriods.last,
           'rataRataHistoris': jumlahList.isNotEmpty ? jumlahList.reduce((a, b) => a + b) / jumlahList.length : 0.0,
         };
       }
     }
 
-    print('Estimasi result untuk $selectedPeriode: $estimasi');
+    print('\n=== FINAL ESTIMASI RESULT ===');
+    print(estimasi);
 
     return {
       'periode': selectedPeriode,
@@ -240,6 +312,9 @@ class PrediksiProvider with ChangeNotifier {
   }
 
   double _calculateARIMAPrediction(List<double> data) {
+    print('\n=== ARIMA CALCULATION ===');
+    print('Input data: $data');
+
     if (data.isEmpty) return 0.0;
     if (data.length == 1) return data[0];
 
@@ -257,12 +332,16 @@ class PrediksiProvider with ChangeNotifier {
     final intercept = (sumY - slope * sumX) / n;
 
     final trendPrediction = slope * n + intercept;
+    print('Trend prediction: $trendPrediction (slope: $slope, intercept: $intercept)');
 
     final seasonalAdjustment = _calculateSeasonalAdjustment(data);
+    print('Seasonal adjustment: $seasonalAdjustment');
 
     final movingAverage = _calculateWeightedMovingAverage(data, 3);
+    print('Moving average: $movingAverage');
 
     final finalPrediction = (trendPrediction * 0.6) + (movingAverage * 0.4) + seasonalAdjustment;
+    print('Final prediction: ($trendPrediction * 0.6) + ($movingAverage * 0.4) + $seasonalAdjustment = $finalPrediction');
 
     return finalPrediction.clamp(0.0, double.infinity);
   }
@@ -284,20 +363,35 @@ class PrediksiProvider with ChangeNotifier {
   }
 
   double _calculateWeightedMovingAverage(List<double> data, int window) {
-    if (data.isEmpty) return 0.0;
-    if (data.length < window) return data.reduce((a, b) => a + b) / data.length;
+    print('\n--- WMA Calculation ---');
+    print('Input data: $data');
+    print('Window: $window');
 
+    if (data.isEmpty) return 0.0;
+    if (data.length < window) {
+      print('Data length ${data.length} < window $window, using simple average');
+      final result = data.reduce((a, b) => a + b) / data.length;
+      print('Simple average result: $result');
+      return result;
+    }
+
+    // ✅ FIX: Ambil data terakhir (terbaru) dan beri bobot tertinggi
     final recentData = data.sublist(data.length - window);
+    print('Recent data (last $window): $recentData');
+
     double sum = 0;
     double weightSum = 0;
 
     for (int i = 0; i < recentData.length; i++) {
-      final weight = (i + 1).toDouble();
+      final weight = (i + 1).toDouble(); // Bobot 1,2,3 untuk urutan kronologis
       sum += recentData[i] * weight;
       weightSum += weight;
+      print('Data[${data.length - window + i}] = ${recentData[i]}, Weight = $weight');
     }
 
-    return sum / weightSum;
+    final result = sum / weightSum;
+    print('WMA result: $sum / $weightSum = $result');
+    return result;
   }
 
   String _calculateTrend(List<double> data) {

@@ -160,7 +160,7 @@ class _RegisterScreenState extends State<RegisterScreen> with SingleTickerProvid
                         children: [
                           CustomTextField(
                             controller: _nameController,
-                            labelText: 'Nama Lengkap',
+                            labelText: 'Nama Bisnis',
                             prefixIcon: Icons.person_outline,
                             validator: (value) => value!.isEmpty ? 'Nama wajib diisi' : null,
                           ),
